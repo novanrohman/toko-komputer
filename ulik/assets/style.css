@@ -58,9 +58,9 @@ table {
   }
 
 .box{
-position: absolute;
+position: relative;
 height: 50%;
-width: 40%;
+width: 30%;
 font-family: helvetica;
 color: #fff;
 background: rgba(0, 0, 0, 0.13);
@@ -74,7 +74,7 @@ margin: 7% 30%;
 	font-size: 30px;
 }
 
-.box input{
+input{
 	display: block ;
 	width: 300px;
 	margin: 20px auto;
@@ -107,7 +107,7 @@ margin: 7% 30%;
 .box p{
 	position: absolute;
 	margin: 20px auto;
-	padding: 20px;
+	padding: 10px 30px;
 }
 
 .box p span{
