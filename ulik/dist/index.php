@@ -1,5 +1,5 @@
 <?php
-include 'dist/koneksi.php'
+include 'config.php'
 ?>
 
 <!doctype html>
