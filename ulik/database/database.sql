@@ -1,9 +1,14 @@
 CREATE DATABASE IF NOT EXISTS toko_komputer;
 
+CREATE TABLE IF NOT EXISTS admin(
+    uname varchar (50) PRIMARY KEY NOT NULL,
+    pass varchar (100) UNIQUE
+);
+
 CREATE TABLE IF NOT EXISTS data_barang(
     kode_barang varchar (100) PRIMARY KEY NOT NULL,
     nama_barang varchar(200) NOT NULL,
-    tipe-barang varchar(100) NOT NULL,
+    tipe_barang varchar(100) NOT NULL,
     kategori varchar (10),
     harga_barang int(20) NOT NULL,
     spesifikasi text,
