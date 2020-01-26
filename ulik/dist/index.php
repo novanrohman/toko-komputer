@@ -19,9 +19,6 @@ include 'config.php'
 <body>
 <!-- Session Login -->
 
-Select * from buku where (tahun terbit >= 2005)
-mysql>select siswa.nis, siswa.nama, kompetensi.komp form siswa, kompetensi where siswa.nis = kompetensi = kd_komp;
-
 
 
 <!-- End Session Login -->
