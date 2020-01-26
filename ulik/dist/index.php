@@ -17,6 +17,14 @@ include 'config.php'
 </head>
 
 <body>
+<!-- Session Login -->
+
+Select * from buku where (tahun terbit >= 2005)
+mysql>select siswa.nis, siswa.nama, kompetensi.komp form siswa, kompetensi where siswa.nis = kompetensi = kd_komp;
+
+
+
+<!-- End Session Login -->
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
         <div class="container">
@@ -32,14 +40,14 @@ include 'config.php'
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">List</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            aria-haspopup="true" aria-expanded="false">Account</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
+                            <a class="dropdown-item" href="#">Account</a>
+                            <a class="dropdown-item" href="#">Logout</a>
                         </div>
                     </li>
                 </ul>
